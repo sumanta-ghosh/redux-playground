@@ -1,5 +1,5 @@
 
-import myRedux from './lib.js'
+import myRedux from './my-redux.js'
 
 /*
 function reducer(state = { value: 0 }, action) {
