@@ -47,7 +47,7 @@ const counterReducer = (state = initialState, action) => {
     }
 }
 
-const store = myRedux.createStore(counterReducer);
+const store = myRedux.createStore(counterReducer, initialState);
 
 const counterElm = document.getElementById("counter");
 
